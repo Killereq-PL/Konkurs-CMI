@@ -6,6 +6,9 @@ quantity = _inList[0]
 quantity = int(quantity)
 lineAmount = quantity*2
 _inList.pop(0)
+print('LICZENIE...')
+
+#for x in range(0, quantity):
 
 _out.write("")
 _out.mode = "a"
@@ -13,3 +16,5 @@ for y in range(0, lineAmount):
     if y != 0:
         _out.write('\n')
     _out.write(_inList[y])
+    print(_inList[y])
+print('KONIEC')
