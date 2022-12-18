@@ -1,2 +1,2 @@
-TAK
-TAK
+3
+NIE
